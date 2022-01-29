@@ -17,7 +17,7 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
@@ -35,9 +35,9 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Kyle Thai</span><br> Software Engineer</h1>
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color" id="name_change">Kyle Thai</span><br> Web Developer</h1>
 
-                <a href="#" class="button">Contact</a>
+                <a href="#" class="button" id='button'>Contact</a>
             </div>
 
             <div class="home__social">
@@ -69,8 +69,8 @@
                 </div>
                 
                 <div>
-                    <h2 class="about__subtitle">I am Kyle</h2>
-                    <p class="about__text">I am a software engineer based from Coding Dojo and a self learner. </p>           
+                    <h2 class="about__subtitle">I am K<span>y</span>le</h2>
+                    <p class="about__text">I am a software engineer based from Coding Dojo and a self learner. Started coding a year ago then take a break to think more about my career and realized coding is the <span id="theone">one</span></p>           
                 </div>                                   
             </div>
         </section>
@@ -81,8 +81,8 @@
 
             <div class="skills__container bd-grid">          
                 <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <h2 class="skills__subtitle"><span>Pro</span>fesional Skills</h2>
+                    <p class="skills__text">I am a full stack developer who is passionately in building challenging projects and willingly striving for the <span>best</span> in any products.</p>
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bxl-html5 skills__icon'></i>
@@ -141,7 +141,7 @@
 
         <!--===== WORK =====-->
         <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title">Projects</h2>
 
             <div class="work__container bd-grid">
                 <a href="" class="work__img">
@@ -169,12 +169,12 @@
         <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
 
-            <div class="contact__container bd-grid">
+            <div class="contact__container bd-grid" id="contact">
                 <form action="" class="contact__form">
                     <input type="text" placeholder="Name" class="contact__input">
                     <input type="mail" placeholder="Email" class="contact__input">
                     <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enviar" class="contact__button button">
+                    <input type="button" value="Submit" class="contact__button button">
                 </form>
             </div>
         </section>
@@ -196,6 +196,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
